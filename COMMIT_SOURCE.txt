@@ -1,5 +1,4 @@
-This repository is a mirror of a local working tree.
-Local path: /workspace/chats/7489c32f05dbedbb71944ce5
-Branch: freebuff/7489c32f05dbedbb71944ce5
+This file exists only to make the multi-file commit tool happy on this replay.
+Real project files are committed in the same tree via other paths.
 
-This commit was created to seed the remote branch so the local branch can be pushed to it.
+This is a placeholder so the commit call is valid.
