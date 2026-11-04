@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:gap="0dp">
+
+    <FrameLayout
+        android:id="@+id/root"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/launcherBackground">
+
+        <androidx.recyclerview.widget.RecyclerView
+            android:id="@+id/appGrid"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:clipToPadding="false"
+            android:padding="24dp"
+            android:visibility="visible"
+            tools:listitem="@layout/item_app" />
+
+        <LinearLayout
+            android:id="@+id/topBar"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="top"
+            android:background="#99000000"
+            android:orientation="horizontal"
+            android:padding="16dp">
+
+            <TextView
+                android:id="@+id/tvClock"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="@color/textPrimary"
+                android:textSize="32sp"
+                android:textStyle="bold"
+                android:layout_gravity="center_vertical"
+                android:layout_marginEnd="24dp"
+                tools:text="12:00" />
+
+            <TextView
+                android:id="@+id/tvDate"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="@color/textDim"
+                android:textSize="14sp"
+                android:layout_gravity="center_vertical"
+                tools:text="Monday" />
+
+            <View
+                android:layout_width="0dp"
+                android:layout_height="0dp"
+                android:layout_weight="1" />
+
+            <ImageButton
+                android:id="@+id/btnInputs"
+                android:layout_width="48dp"
+                android:layout_height="48dp"
+                android:background="?attr/selectableItemBackgroundBorderless"
+                android:contentDescription="@string/inputs"
+                android:src="@drawable/ic_inputs"
+                android:scaleType="centerInside"
+                android:layout_marginEnd="8dp" />
+
+            <ImageButton
+                android:id="@+id/btnWifi"
+                android:layout_width="48dp"
+                android:layout_height="48dp"
+                android:background="?attr/selectableItemBackgroundBorderless"
+                android:contentDescription="@string/wifi"
+                android:src="@drawable/ic_wifi"
+                android:scaleType="centerInside"
+                android:layout_marginEnd="8dp" />
+
+            <ImageButton
+                android:id="@+id/btnNetwork"
+                android:layout_width="48dp"
+                android:layout_height="48dp"
+                android:background="?attr/selectableItemBackgroundBorderless"
+                android:contentDescription="@string/network"
+                android:src="@drawable/ic_network"
+                android:scaleType="centerInside"
+                android:layout_marginEnd="8dp" />
+
+            <ImageButton
+                android:id="@+id/btnWeather"
+                android:layout_width="48dp"
+                android:layout_height="48dp"
+                android:background="?attr/selectableItemBackgroundBorderless"
+                android:contentDescription="@string/weather"
+                android:src="@drawable/ic_weather"
+                android:scaleType="centerInside" />
+
+            <ImageButton
+                android:id="@+id/btnSettings"
+                android:layout_width="48dp"
+                android:layout_height="48dp"
+                android:background="?attr/selectableItemBackgroundBorderless"
+                android:contentDescription="@string/settings"
+                android:src="@drawable/ic_settings"
+                android:scaleType="centerInside"
+                android:layout_marginStart="8dp" />
+
+            <Button
+                android:id="@+id/btnAllApps"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/all_apps"
+                android:textColor="@color/textPrimary"
+                android:background="@drawable/bg_button"
+                android:textSize="14sp"
+                android:paddingHorizontal="18dp"
+                android:paddingVertical="10dp"
+                android:layout_marginStart="8dp"
+                android:visibility="visible" />
+
+        </LinearLayout>
+    </FrameLayout>
+</merge>

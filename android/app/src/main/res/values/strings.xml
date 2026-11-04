@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Liquid Glass Launcher</string>
+    <string name="all_apps">All Apps</string>
+    <string name="settings">Settings</string>
+    <string name="inputs">Inputs</string>
+    <string name="wifi">Wi-Fi</string>
+    <string name="network">Network</string>
+    <string name="weather">Weather</string>
+    <string name="live_clock_wallpaper">Live Clock</string>
+    <string name="upload_wallpaper">Upload</string>
+    <string name="reset_wallpaper">Reset</string>
+    <string name="upload_wallpaper_hint">Choose a photo from your USB or network storage</string>
+    <string name="custom_wallpaper_title">Custom Wallpaper</string>
+    <string name="wallpaper_custom_applied">Custom wallpaper applied</string>
+    <string name="wallpaper_apply_failure">Could not set wallpaper on this TV</string>
+    <string name="launcher_not_set_message">Launcher not set</string>
+    <string name="accessibility_home_service_description">Helps Home go to this launcher on some TVs</string>
+</resources>
